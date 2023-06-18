@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content= "width=device-width, user-scalable=no">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="pharmacy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <div class="logo-div">
+                <h1 class="brandname">
+                    <img class="logo" src="p_image/mgm-btech.png" alt="">
+                </h1>
+        </div>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-exit' onclick="hideMenu() "></i>
+               
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Courses</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contact </a></li>
+
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+            
+           
+        </nav>
+        <div class="textbox">
+            <h1>MGM Silver Jubilee
+                College of Pharmaceutical Science</h1>
+        </div>
+        <!-----------
+        <div>        <i class='bx bx-phone-call'>
+            <p class="contactnumber">+918080880808</p>
+        </i>
+    </div>
+    ---->
+
+       
+
+    </section>
+
+    <section class="course">
+        <h1>Course We Offer</h1>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus quis in veniam corrupti architecto at distinctio, id voluptate laborum soluta obcaecati harum dicta labore voluptas minus illo vero eveniet.
+        <div class="row">
+            <div class="course-col">
+                <h3>B-Pharm</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptas incidunt quidem suscipit dolorum adipisci sint labore aut illum repudiandae cupiditate, nihil, doloremque maxime deserunt similique facilis rerum corrupti placeat.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>D-Pharm</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptas incidunt quidem suscipit dolorum adipisci sint labore aut illum repudiandae cupiditate, nihil, doloremque maxime deserunt similique facilis rerum corrupti placeat.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!----------campus-------->
+
+    <section class="campus">
+
+         <h1> Our Campus </h1>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates harum </p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="p_image/mgm1.jpg" alt="">
+                <div class="layer">
+                    <h3>B-Pharm block</h3>
+                </div>
+            </div> 
+            <div class="campus-col">
+                <img src="p_image/mgm5.jpg" alt="">
+                <div class="layer">
+                    <h3>D-Pharm block</h3>
+                </div>
+            </div> 
+            </div>
+       
+
+    </section>
+
+    <!-----facilities----->
+
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At a odit nisi velit? Ipsum asperiores eius aperiam sapiente quisquam illum officiis laboriosam accusamus, debitis vitae, illo eos fuga amet hic.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="p_image/library.png" alt="">
+                <h3>Digital library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus perferendis maxime dicta doloremque inventore? Tenetur reiciendis atque sint laboriosam natus maiores corporis, nemo ipsa aliquam suscipit aut enim cum aperiam!</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="p_image/lab.jpg" alt="">
+                <h3>High Tech Laboratry</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus perferendis maxime dicta doloremque inventore? Tenetur reiciendis atque sint laboriosam natus maiores corporis, nemo ipsa aliquam suscipit aut enim cum aperiam!</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="p_image/hostel.webp" alt="">
+                <h3>Hostel facilities</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus perferendis maxime dicta doloremque inventore? Tenetur reiciendis atque sint laboriosam natus maiores corporis, nemo ipsa aliquam suscipit aut enim cum aperiam!</p>
+            </div>
+        </div>
+    
+    </section>
+
+    <section class="enroll">
+        <h1>Enroll for More Details</h1>
+        <button class="contactus"> <a href="">Contact Us</a></button>
+    </section>
+
+    <section class="footer">
+        <h4>About Us </h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam eos accusantium quidem nulla cupiditate consequuntur doloremque vel, excepturi velit earum omnis sunt doloribus suscipit beatae assumenda repellat placeat minima aliquid!</p>
+    
+        <div class="home-sci">
+            <a target="_blank" href=""><i class='bx bxl-instagram' ></i></a>
+            <a target="_blank" href=""><i class='bx bxl-whatsapp'></i></a>
+            <a target="_blank" href=""><i class='bx bxl-facebook'></i></a>
+            <a target="_blank" href=""><i class='bx bxl-linkedin'></i></a>
+                          
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+<!-----------javascript------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0px";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    
+</body>
+</html>

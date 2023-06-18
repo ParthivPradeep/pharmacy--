@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="collegeweb.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300&family=Poppins:wght@200;300;400;600;800&display=swap" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <section class="sub-header" id="home">
+        <nav>
+            <a href="index.html"><img class="logo" src="P_Images/ktulogo.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu() "></i> 
+                <ul>
+                    <li><a href="home">HOME</a></li>
+                    <li><a href="about">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<h1>About Us</h1>
+      
+    </section>
+<!-----about us content----->
+
+<section class="about-us" id="about">
+<div class="row">
+    <div class="about-col">
+       <h1> We are the world's largest university</h1>
+       <p>Lorem ipsum, dolor sit amet consectetur adipisicing
+         elit. Dolorum minus doloremque distinctio quidem nisi
+          impedit voluptatum vitae accusantium exercitationem 
+          voluptatibus delectus, porro, assumenda quasi quos 
+          cupiditate ea id velit cumqueLorem ipsum, dolor sit amet consectetur adipisicing
+          elit. Dolorum minus doloremque distinctio quidem nisi
+           impedit voluptatum vitae accusantium exercitationem 
+           voluptatibus delectus, porro, assumenda quasi quos 
+           cupiditate ea id velit cumque.</p>
+       <button class="hero-btn"> <a href=" ">EXPLORE NOW</a></button>
+
+        </div>
+    <div class="about-col">
+        <img src="P_Images/aboutus.jpg" alt="">
+    </div>
+</div>
+  
+</section>
+<!---footer-->
+
+<section class="footer">
+    <h4>About Us </h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam eos accusantium quidem nulla cupiditate consequuntur doloremque vel, excepturi velit earum omnis sunt doloribus suscipit beatae assumenda repellat placeat minima aliquid!</p>
+
+    <div class="icons">
+         <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+</section>
+
+
+
+
+
+
+ <!---------javascript code for toogle menu --------->    
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>
+</body>
+</html>
