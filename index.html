@@ -16,29 +16,28 @@
     <section class="header">
         <nav>
             <div class="logo-div">
+                <div class="nav-links" id="navLinks">
+                    <i class='bx bx-exit' onclick="hideMenu() "></i>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Courses</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contact </a></li>
+    
+                    </ul>
+                </div>
+                <i class='bx bx-menu' onclick="showMenu()"></i>
                 <h1 class="brandname">
                     <img class="logo" src="p_image/mgm-btech.png" alt="">
                 </h1>
-        </div>
-            <div class="nav-links" id="navLinks">
-                <i class='bx bx-exit' onclick="hideMenu() "></i>
-               
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Courses</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Contact </a></li>
-
-                </ul>
-            </div>
-            <i class='bx bx-menu' onclick="showMenu()"></i>
-            
-           
+                
+        </div>   
         </nav>
         <div class="textbox">
             <h1>MGM Silver Jubilee
                 College of Pharmaceutical Science</h1>
+
         </div>
         <!-----------
         <div>        <i class='bx bx-phone-call'>
@@ -155,8 +154,10 @@
         var navLinks = document.getElementById("navLinks");
         function showMenu(){
             navLinks.style.right = "0px";
+            navLinks.style.display = "block";
         }
         function hideMenu(){
+            navLinks.style.display = "none";
             navLinks.style.right = "-200px";
         }
     </script>
